@@ -63,5 +63,15 @@ docker exec jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
 move through the steps to end up on jenkins GUI
 
 
+Jenkins container bash shell (linux)
+```
+docker exec -it jenkins-blueocean bash
+```
 
+go to the job we created
+```
+cd /var/jenkins_home/workspace
+cd mu_first_job
+ls -ltra
+```
 
