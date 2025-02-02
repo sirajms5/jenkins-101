@@ -1,0 +1,9 @@
+docker build -t myjenkins-blueocean:latest .
+
+Breaking it Down:
+docker build → This command tells Docker to build a new image.
+-t myjenkins-blueocean:2.414.2 → The -t flag assigns a tag (name) to the image:
+myjenkins-blueocean → The name of the Docker image.
+2.414.2 → The version/tag of the image (could be based on the Jenkins Blue Ocean plugin version).
+. → The dot (.) specifies the build context, meaning Docker will look for a Dockerfile in the current directory to build the image.
+
