@@ -1,5 +1,5 @@
 # latest jenkins plugin
-FROM jenkins/jenkins:lts-jdk11
+FROM jenkins/jenkins:lts-jdk17
 # for java use: FROM jenkins/jenkins:lts-jdk17
 # switch to root user
 USER root
